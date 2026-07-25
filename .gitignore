@@ -2,3 +2,19 @@
 git_sync.ps1
 git_sync.sh
 __pycache__/
+# Git同步临时文件
+git_sync.lock
+
+# 旧脚本备份
+*.bak
+
+# Python缓存
+__pycache__/
+*.pyc
+
+# 环境文件
+.env
+
+# Token文件
+*.token
+*.key

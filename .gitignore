@@ -1,26 +1,34 @@
-cat > .gitignore <<'EOF'
-# Python
-__pycache__/
-*.pyc
-*.pyo
+# ==========================
+# CF-IP private files
+# ==========================
 
-# Virtual environment
-venv/
-
-# Runtime files
-*.lock
-
-# Logs
-*.log
-
-# Git sync temporary
-git_sync.lock
-git_sync.sh.bak
-
-# OS files
-.DS_Store
-
-# Local sensitive config
 config.json
-config.local.json
-EOF
+
+# sync scripts
+git_sync.sh
+git_sync.ps1
+
+# python virtual environment
+venv/
+.venv/
+
+# python cache
+__pycache__/
+*.py[cod]
+
+# runtime
+*.log
+*.lock
+*.bak
+
+# temporary
+*.tmp
+*.swp
+
+# cache
+ipinfo_cache.txt
+valid_tokens.txt
+
+# system
+.DS_Store
+Thumbs.db

@@ -4,31 +4,54 @@
 
 config.json
 
-# sync scripts
+
+# ==========================
+# Sync scripts
+# ==========================
+
 git_sync.sh
 git_sync.ps1
 
-# python virtual environment
+
+# ==========================
+# Python
+# ==========================
+
 venv/
 .venv/
 
-# python cache
 __pycache__/
 *.py[cod]
 
-# runtime
+
+# ==========================
+# Runtime
+# ==========================
+
 *.log
 *.lock
 *.bak
 
-# temporary
+
+# ==========================
+# Temporary
+# ==========================
+
 *.tmp
 *.swp
 
-# cache
+
+# ==========================
+# Cache
+# ==========================
+
 ipinfo_cache.txt
 valid_tokens.txt
 
-# system
+
+# ==========================
+# OS
+# ==========================
+
 .DS_Store
 Thumbs.db
